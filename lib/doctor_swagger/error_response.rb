@@ -7,8 +7,8 @@ module DoctorSwagger
 
     def as_json(*)
       {
-        'code'       => @error,
-        'reason' => @http_status
+        'reason'       => @error,
+        'code' => @http_status
       }
     end
   end
