@@ -152,16 +152,16 @@ EOS
               'responseClass' => '[product]',
               'errorResponses' => [
                 {
-                  'error' => 'resource_not_found',
-                  'http_status' => 404
+                  'code' => 'resource_not_found',
+                  'reason' => 404
                 },
                 {
-                  'error' => 'access_denied',
-                  'http_status' => 401
+                  'code' => 'access_denied',
+                  'reason' => 401
                 },
                 {
-                  'error' => 'im_a_teapot',
-                  'http_status' => 418
+                  'code' => 'im_a_teapot',
+                  'reason' => 418
                 }
               ],
               'summary' => 'Find products by category id',
@@ -206,12 +206,12 @@ EOS
               'responseClass' => 'product',
               'errorResponses' => [
                 {
-                  'error' => 'resource_not_found',
-                  'http_status' => 404
+                  'code' => 'resource_not_found',
+                  'reason' => 404
                 },
                 {
-                  'error' => 'access_denied',
-                  'http_status' => 401
+                  'code' => 'access_denied',
+                  'reason' => 401
                 }
               ],
               'summary' => 'Find product by product id',
@@ -252,12 +252,12 @@ EOS
               'responseClass' => 'product',
               'errorResponses' => [
                 {
-                  'error' => 'resource_not_found',
-                  'http_status' => 404
+                  'code' => 'resource_not_found',
+                  'reason' => 404
                 },
                 {
-                  'error' => 'access_denied',
-                  'http_status' => 401
+                  'code' => 'access_denied',
+                  'reason' => 401
                 }
               ],
               'summary' => 'Update product by product id',
